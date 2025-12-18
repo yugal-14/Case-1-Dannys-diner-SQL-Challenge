@@ -5,7 +5,8 @@
 - [INTRODUCTION](#Introduction)
 - [Entity Relationship Diagram](#entity-relationship-diagram)
 - [Question and Solution](#question-and-solution)
-- [Question and Solution(#Business Impact & Recommendations)
+- [Business impact & Recommendation](#Business-Impact-&-Recommendations)
+- [Technical Learnings](#Technical-Learnings)
  
 ***
 
@@ -17,7 +18,7 @@ In this project, I worked on Case Study #1: Danny’s Diner from the 8 Week SQL 
 Please note that all the information regarding the case study has been sourced from the following link: [here](https://8weeksqlchallenge.com/case-study-1/).
 
 ***
-# Danny owns a small Japanese restaurant and has collected transactional data, but he doesn’t know how to use it to understand customer behavior, spending patterns, or the impact of his loyalty program.
+Danny owns a small Japanese restaurant and has collected transactional data, but he doesn’t know how to use it to understand customer behavior, spending patterns, or the impact of his loyalty program.
 Using PostgreSQL, I answered 10 core business questions and additional bonus questions to help Danny make data-driven decisions.
 ***
 
@@ -550,8 +551,7 @@ Automate reporting → Implement the created views for ongoing team access to in
 
 ***
 
-##💡 What I Learned & Key Insights
-Technical Learnings
+##💡Technical Learnings
 Advanced SQL Functions: Mastered RANK(), DENSE_RANK(), and window functions with PARTITION BY for complex ranking scenarios
 
 Data Transformation: Used CASE statements for conditional logic in point calculations and member classification
