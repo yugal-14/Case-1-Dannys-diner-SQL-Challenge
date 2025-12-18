@@ -2,17 +2,23 @@
 <img src="https://user-images.githubusercontent.com/81607668/127727503-9d9e7a25-93cb-4f95-8bd0-20b87cb4b459.png" alt="Image" width="500" height="520">
 
 ## 📚 Table of Contents
-- [Business Task](#business-task)
+- [INTRODUCTION](#Introduction)
 - [Entity Relationship Diagram](#entity-relationship-diagram)
 - [Question and Solution](#question-and-solution)
-
-Please note that all the information regarding the case study has been sourced from the following link: [here](https://8weeksqlchallenge.com/case-study-1/). 
-
+- [Question and Solution(#Business Impact & Recommendations)
+ 
 ***
 
-## Business Task
-Danny wants to use the data to answer a few simple questions about his customers, especially about their visiting patterns, how much money they’ve spent and also which menu items are their favourite. 
+## 📌 Introduction
 
+SQL skills become truly valuable when they are applied to real business problems, not just textbook exercises.
+In this project, I worked on Case Study #1: Danny’s Diner from the 8 Week SQL Challenge by Danny Ma, where the goal is to analyze restaurant data and uncover actionable insights.
+
+Please note that all the information regarding the case study has been sourced from the following link: [here](https://8weeksqlchallenge.com/case-study-1/).
+
+***
+# Danny owns a small Japanese restaurant and has collected transactional data, but he doesn’t know how to use it to understand customer behavior, spending patterns, or the impact of his loyalty program.
+Using PostgreSQL, I answered 10 core business questions and additional bonus questions to help Danny make data-driven decisions.
 ***
 
 ## Entity Relationship Diagram
@@ -23,11 +29,7 @@ Danny wants to use the data to answer a few simple questions about his customers
 
 ## Question and Solution
 
-Please join me in executing the queries using PostgreSQL on [DB Fiddle](https://www.db-fiddle.com/f/2rM8RAnq7h5LLDTzZiRWcd/138). It would be great to work together on the questions!
 
-Additionally, I have also published this case study on [Medium](https://katiehuangx.medium.com/8-week-sql-challenge-case-study-week-1-dannys-diner-2ba026c897ab?source=friends_link&sk=ed355696f5a70ff8b3d5a1b905e5dabe).
-
-If you have any questions, reach out to me on [LinkedIn](https://www.linkedin.com/in/katiehuangx/).
 
 **1. What is the total amount each customer spent at the restaurant?**
 
@@ -531,5 +533,31 @@ FROM customers_data;
 | C           | 2021-01-01 | ramen        | 12    | N      | NULL
 | C           | 2021-01-01 | ramen        | 12    | N      | NULL
 | C           | 2021-01-07 | ramen        | 12    | N      | NULL
+
+***
+##📈 Business Impact & Recommendations
+Based on the analysis, I would recommend Danny:
+
+Expand the loyalty program → Strong engagement from members A and B (1,370 and 820 points respectively)
+
+Feature ramen promotions → Capitalize on its popularity as the top-selling item
+
+Personalize offers → Target Customer A with ramen deals, Customer B with variety bundles
+
+Convert Customer C → Design incentives to increase visit frequency and menu exploration
+
+Automate reporting → Implement the created views for ongoing team access to insights
+
+***
+
+##💡 What I Learned & Key Insights
+Technical Learnings
+Advanced SQL Functions: Mastered RANK(), DENSE_RANK(), and window functions with PARTITION BY for complex ranking scenarios
+
+Data Transformation: Used CASE statements for conditional logic in point calculations and member classification
+
+Query Optimization: Implemented Common Table Expressions (CTEs) to break down complex queries into manageable steps
+
+Data Modeling: Built comprehensive views (join_all_things) that combine multiple tables for business reporting
 
 ***
